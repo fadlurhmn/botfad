@@ -23,7 +23,7 @@ Best regards, Yoga Sakti.`
 exports.textMenu = (pushname) => {
     return `
 Hi, ${pushname}! 👋️
-Berikut adalah beberapa fitur yang ada pada bot ini!✨
+Berikut adalah beberapa fitur yang ada pada fadbot ini!✨
 
 Sticker Creator:
 1. *#sticker*
@@ -37,6 +37,9 @@ Penggunaan:
 3. *#gifsticker* _<Giphy URL>_ / *#stickergif* _<Giphy URL>_
 Untuk merubah gif menjadi sticker (Giphy Only)
 Penggunaan: Kirim pesan dengan format *gifsticker https://media.giphy.com/media/JUvI2c1ddyzkwK4RlV/giphy.gif*
+
+4. *#sticker nobg*
+Untuk merubah gambar menjadi sticker tanpa background
 
 Downloader:
 1. *#tiktok* _<tiktok url> _
@@ -96,7 +99,7 @@ Untuk mempromosikan member menjadi Admin grup.
 Untuk demosikan Admin grup.
 
 4. *#tagall*
-Untuk mention semua member grup. (Premium Only)
+Untuk mention semua member grup. 
 
 5. *#del*
 Untuk menghapus pesan bot (balas pesan bot dengan #del)`
@@ -104,9 +107,10 @@ Untuk menghapus pesan bot (balas pesan bot dengan #del)`
 
 exports.textDonasi = () => {
     return `
-Hai, terimakasih telah menggunakan bot ini, untuk mendukung bot ini kamu dapat membantu dengan berdonasi melalui link berikut:
-1. Saweria: https://saweria.co/yogasakti
-2. Trakteer: https://trakteer.id/red-emperor 
+Hai, terimakasih telah menggunakan bot ini, untuk mendukung bot ini kamu dapat membantu dengan berdonasi melalui rekening berikut:
+1. 081389087364 HAMDAN (DANA)
+2. 0895396162964 NUNUNG (OVO)
+3. 90012120731/$fadlurhmnnn (BTPN JENIUS)
 
 Donasi akan digunakan untuk pengembangan dan pengoperasian bot ini.
 
