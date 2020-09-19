@@ -240,6 +240,24 @@ module.exports = msgHandler = async (client = new Client(), message) => {
                 await client.reply(from, 'Tidak ada gambar! Untuk membuka cara penggnaan kirim #menu [Wrong Format]', id)
             }
             break
+         case 'memesticker':
+             if ((isMedia || isQuotedImage) && args.length >= 2) {
+                 const top = arg.split('|')[0]
+                 const bottom = arg.split('|')[1]
+                 const encryptMedia = isQuotedImage ? quotedMsg : message
+                 const mediaData = await decryptMedia(encryptMedia, uaOverride)
+                 const getUrl = await uploadImages(mediaData, true)
+                 const ImageBase64 = await meme.custom(getUrl, top, bottom)
+                     client.sendImageAsSticker(from, ImageBase64)
+                         .then(() => {
+                              client.reply(from, 'Here\'s your sticker')
+                             console.log(`Sticker Processed for ${processTime(t, moment())} Second`)
+                         })
+                         .catch((err) => console.error(err))
+            } else {
+                await client.reply(from, 'Tidak ada gambar! Untuk membuka daftar perintah kirim #menu [Wrong Format]', id)
+            }
+            break       
         case 'resi':
             if (args.length !== 2) return client.reply(from, 'Maaf, format pesan salah silahkan periksa menu. [Wrong Format]', id)
             const kurirs = ['jne', 'pos', 'tiki', 'wahana', 'jnt', 'rpx', 'sap', 'sicepat', 'pcp', 'jet', 'dse', 'first', 'ninja', 'lion', 'idl', 'rex']
