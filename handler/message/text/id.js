@@ -41,8 +41,10 @@ Penggunaan: Kirim pesan dengan format *gifsticker https://media.giphy.com/media/
 4. *#sticker nobg*
 Untuk merubah gambar menjadi sticker tanpa background
 
-5. *#memesticker*
+5. *#memesticker Teks Atas | Teks Bawah*
+Ex: *meme asu | lo*
 Untuk membuat gambar menjadi meme sticker
+Gunakan symbol (-) jika tidak butuh teks ata/bawah
 
 Downloader:
 1. *#tiktok* _<tiktok url> _
