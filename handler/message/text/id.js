@@ -23,7 +23,7 @@ Best regards, Yoga Sakti.`
 exports.textMenu = (pushname) => {
     return `
 Hi, ${pushname}! 👋️
-Berikut adalah beberapa fitur yang ada pada fadbot ini!✨
+Berikut adalah beberapa fitur yang ada pada *@fadlurhmnnn* ini!✨
 
 Sticker Creator:
 1. *#sticker*
@@ -42,7 +42,7 @@ Penggunaan: Kirim pesan dengan format *gifsticker https://media.giphy.com/media/
 Untuk merubah gambar menjadi sticker tanpa background
 
 5. *#memesticker Teks Atas | Teks Bawah*
-Ex: *meme asu | lo*
+Ex: *#memesticker asu | lo*
 Untuk membuat gambar menjadi meme sticker
 Gunakan symbol (-) jika tidak butuh teks ata/bawah
 
