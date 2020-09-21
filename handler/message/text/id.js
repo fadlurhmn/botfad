@@ -17,13 +17,13 @@ Dengan menggunakan source code / bot ini maka anda setuju dengan Syarat dan Kond
 Source Code BOT : https://github.com/YogaSakti/imageToSticker
 NodeJS WhatsApp library: https://github.com/open-wa/wa-automate-nodejs
 
-Best regards, Yoga Sakti.`
+Best regards, Yoga Sakti & Fadlurrohman.`
 }
 
 exports.textMenu = (pushname) => {
     return `
 Hi, ${pushname}! 👋️
-Berikut adalah beberapa fitur yang ada pada *@fadlurhmnnn* ini!✨
+Berikut adalah beberapa fitur yang ada pada bot *(@fadlurhmnnn)* ini!✨
 
 Sticker Creator:
 1. *#sticker*
