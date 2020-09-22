@@ -86,7 +86,8 @@ Menampilkan Syarat dan Kondisi Bot.
 6. *#donasi*
 menampilkan informasi donasi.
 
-Hope you have a great day!✨`
+Hope you have a great day!✨
+Best regards, Fadlurrohman
 }
 
 exports.textAdmin = () => {
