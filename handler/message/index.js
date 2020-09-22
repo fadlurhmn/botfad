@@ -340,7 +340,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
             if (!isGroupMsg) return client.reply(from, 'Maaf, perintah ini hanya dapat dipakai didalam grup! [Group Only]', id)
             if (!isGroupAdmins) return client.reply(from, 'Gagal, perintah ini hanya dapat digunakan oleh admin grup! [Admin Group Only]', id)
             const mentions = mentionList(sender.id, botNumber, groupMembers)
-            await client.sendTextWithMentions(from, `Heyy, ${pushname} is calling you !!!\n${mentions}`)
+            await client.sendTextWithMentions(from, `heyy, ${pushname} keluar lo !!!\n${mentions}`)
             break
         case 'botstat': {
             const loadedMsg = await client.getAmountOfLoadedMessages()
