@@ -38,16 +38,15 @@ Penggunaan:
 Untuk merubah gif menjadi sticker (Giphy Only)
 Penggunaan: Kirim pesan dengan format *gifsticker https://media.giphy.com/media/JUvI2c1ddyzkwK4RlV/giphy.gif*
 
-4. *#sticker nobg*
+4. *#memesticker* _<teks atas>_ | _<teks bawah>_
+Untuk membuat sticker meme dengan teks atas dan bawah
+Penggunaan: kirim gambar dengan caption _*#meme aku atas | kamu bawah*_, atau juga bisa dengan membalas gambar yang sudah ada.
+
+5. *#sticker nobg*
 Untuk merubah gambar menjadi sticker tanpa background
 
-5. *#memesticker Teks Atas | Teks Bawah*
-Ex: *#memesticker asu | lo*
-Untuk membuat gambar menjadi meme sticker
-Gunakan symbol (-) jika tidak butuh teks ata/bawah
-
 Downloader:
-1. *#tiktok* _<tiktok url> _
+1. *#tiktok* _<tiktok url>_
 Untuk mengunduh video dari video tiktok.
 Penggunaan: kirim pesan dengan format *#tiktok https://www.tiktok.com/@itsandani/video/6869248690381425922* 
 
@@ -86,8 +85,8 @@ Menampilkan Syarat dan Kondisi Bot.
 6. *#donasi*
 menampilkan informasi donasi.
 
-Hope you have a great day!✨
 Best regards, Fadlurrohman
+Hope you have a great day!✨`
 }
 
 exports.textAdmin = () => {
