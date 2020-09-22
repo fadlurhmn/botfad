@@ -85,6 +85,10 @@ Menampilkan Syarat dan Kondisi Bot.
 6. *#donasi*
 menampilkan informasi donasi.
 
+7. *#Ask*
+Untuk bertanya kepada admin
+format : #Ask <answer>
+
 "Untuk menambahkan bot ke Grup 
 mohon tanyakan Admin terlebih dahulu"
 
