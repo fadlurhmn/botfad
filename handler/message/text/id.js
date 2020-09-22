@@ -42,8 +42,8 @@ Penggunaan: Kirim pesan dengan format *gifsticker https://media.giphy.com/media/
 Untuk membuat sticker meme dengan teks atas dan bawah
 Penggunaan: kirim gambar dengan caption _*#meme aku atas | kamu bawah*_, atau juga bisa dengan membalas gambar yang sudah ada.
 
-5. *#sticker nobg*
-Untuk merubah gambar menjadi sticker tanpa background
+5. *#sticker nobg* 
+Untuk merubah gambar menjadi sticker tanpa background (premium member only)
 
 Downloader:
 1. *#tiktok* _<tiktok url>_
@@ -84,6 +84,9 @@ Menampilkan Syarat dan Kondisi Bot.
 
 6. *#donasi*
 menampilkan informasi donasi.
+
+"Untuk menambahkan bot ke Grup 
+mohon tanyakan Admin terlebih dahulu"
 
 Best regards, Fadlurrohman
 Hope you have a great day!✨`
