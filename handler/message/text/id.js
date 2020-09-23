@@ -107,7 +107,6 @@ Donasi akan digunakan untuk pengembangan dan pengoperasian bot ini.
 
 Terimakasih.`
 
-
 exports.textAdmin = () => {
     return `
 ⚠ [ *Admin Group Only* ] ⚠ 
