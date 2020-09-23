@@ -43,7 +43,7 @@ Untuk membuat sticker meme dengan teks atas dan bawah
 Penggunaan: kirim gambar dengan caption _*#meme aku atas | kamu bawah*_, atau juga bisa dengan membalas gambar yang sudah ada.
 
 5. *#sticker nobg* 
-Untuk merubah gambar menjadi sticker tanpa background 
+Untuk merubah gambar menjadi sticker tanpa background (Premium member only!)
 
 Downloader:
 1. *#tiktok* _<tiktok url>_
