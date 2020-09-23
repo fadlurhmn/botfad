@@ -96,17 +96,6 @@ Best regards, Fadlurrohman
 Hope you have a great day!✨`
 }
 
-exports.textMenu = () => {
-    return `
-Hai, terimakasih telah menggunakan bot ini, untuk mendukung bot ini kamu dapat membantu dengan berdonasi melalui rekening berikut:
-1. 081389087364 HAMDAN (DANA)
-2. 0895396162964 NUNUNG (OVO)
-3. 90012120731/$fadlurhmnnn (BTPN JENIUS)
-
-Donasi akan digunakan untuk pengembangan dan pengoperasian bot ini.
-
-Terimakasih.`
-
 exports.textAdmin = () => {
     return `
 ⚠ [ *Admin Group Only* ] ⚠ 
