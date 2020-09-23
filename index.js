@@ -17,7 +17,7 @@ const start = (client = new Client()) => {
     client.onMessage((message) => {
         client.getAmountOfLoadedMessages() // Cut message Cache if cache more than 3K
             .then((msg) => {
-                if (msg >= 3000) {
+                if (msg >= 1000) {
                     console.log('[CLIENT]', color(`Loaded Message Reach ${msg}, cuting message cache...`, 'yellow'))
                     client.cutMsgCache()
                 }
@@ -32,7 +32,7 @@ const start = (client = new Client()) => {
             .then((ids) => {
                 console.log('[CLIENT]', color(`Invited to Group. [ ${name} : ${ids.length}]`, 'yellow'))
                 // conditions if the group members are less than 10 then the bot will leave the group
-                if (ids.length <= 100) {
+                if (ids.length <= 1) {
                     client.sendText(id, 'Maaf, harap tanyakan admin terlebih dahulu untuk menambahkan bot ke grup anda. terima kasih~').then(() => client.leaveGroup(id))
                 } else {
                     client.sendText(id, `Hello group members *${name}*, thank you for inviting this bot, to see the bot menu send *#menu*`)
