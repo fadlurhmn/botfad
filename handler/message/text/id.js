@@ -45,6 +45,8 @@ Penggunaan: kirim gambar dengan caption _*#meme aku atas | kamu bawah*_, atau ju
 5. *#sticker nobg* 
 Untuk merubah gambar menjadi sticker tanpa background (Premium member only!)
 
+*Use delay please!! jangan mentang-mentang gblk, gratis di borong semua!!*
+
 Downloader:
 1. *#tiktok* _<tiktok url>_
 Untuk mengunduh video dari video tiktok.
