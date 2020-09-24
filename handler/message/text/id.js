@@ -23,7 +23,7 @@ Best regards, Yoga Sakti & Fadlurrohman.`
 exports.textMenu = (pushname) => {
     return `
 Hi, ${pushname}! 👋️
-Berikut adalah beberapa fitur yang ada pada bot *(@fadlurhmnnn)* ini!✨
+Berikut adalah beberapa fitur yang ada pada $botfad ini!✨
 
 Sticker Creator:
 1. *#sticker*
