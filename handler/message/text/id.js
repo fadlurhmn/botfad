@@ -119,11 +119,6 @@ Untuk mention semua member grup.
 Untuk menghapus pesan bot (balas pesan bot dengan #del)`
 }
 
-exports.textSticker = () => {
-    return `
-Use delay please!!  jangan mentang-mentang gblk, gratis di borong semua!!
-}
-
 exports.textDonasi = () => {
     return `
 Hai, terimakasih telah menggunakan bot ini, untuk mendukung bot ini kamu dapat membantu dengan berdonasi melalui rekening berikut:
